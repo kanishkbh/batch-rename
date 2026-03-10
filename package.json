@@ -1,8 +1,8 @@
 {
-  "name": "batch-rename-extension",
-  "displayName": "Batch Rename",
-  "description": "Batch rename files in the explorer inside a text editor",
-  "version": "0.0.8",
+  "name": "multi-rename-extension",
+  "displayName": "Multi Rename",
+  "description": "Rename multiple files and folders in the explorer inside a text editor",
+  "version": "0.1.0",
   "publisher": "kanishkbh",
   "repository": {
     "type": "git",
@@ -20,8 +20,8 @@
     "commands": [
       {
         "command": "extension.renameBatch",
-        "title": "Batch Rename...",
-        "category": "Batch Renamer"
+        "title": "Multi Rename...",
+        "category": "Multi Rename"
       }
     ],
     "menus": {

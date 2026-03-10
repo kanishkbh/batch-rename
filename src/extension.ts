@@ -30,7 +30,7 @@ export function activate(context: vscode.ExtensionContext) {
             current_renaming!.files.push({ fsPath: file.fsPath, basename, basepath });
         });
 
-        const batchFilePath = path.join(os.tmpdir(), '.Batch Rename.txt');
+        const batchFilePath = path.join(os.tmpdir(), '.Multi Rename.txt');
         const content = current_renaming.files.map(file => file.basename).join('\n');
         fs.writeFileSync(batchFilePath, content);
 
