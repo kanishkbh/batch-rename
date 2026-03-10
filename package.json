@@ -2,7 +2,7 @@
   "name": "mass-rename-extension",
   "displayName": "Mass Rename",
   "description": "Rename multiple files and folders in the explorer inside a text editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "Kanishk-B",
   "repository": {
     "type": "git",
