@@ -1,11 +1,28 @@
 # Batch Rename
 
-Rename multiple files at once inside the editor window. That way you can use find/replace and multi-cursor.
+> **Fork of [JannisX11/batch-rename](https://github.com/JannisX11/batch-rename).**
+> This fork extends the original by adding support for **batch renaming folders** in addition to files.
+
+Rename multiple files and folders at once inside the editor window. That way you can use find/replace and multi-cursor.
+
+### Installation
+
+**From source**
+
+```bash
+git clone https://github.com/JannisX11/batch-rename.git
+cd batch-rename
+npm install
+npx vsce package
+code --install-extension batch-rename-extension-*.vsix
+```
+
+Reload VS Code after installation.
 
 ### How To Use:
-* Select files in the explorer sidebar
-* Right click one of the files and click "Batch Rename"
-* Edit the file names in the editor
+* Select files and/or folders in the explorer sidebar
+* Right click one of them and click "Batch Rename"
+* Edit the names in the editor
 * Hit Save to confirm
 
 ![Demo GIF](https://raw.githubusercontent.com/JannisX11/batch-rename/main/media/demo.gif)
